@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Rocket, Globe, CreditCard, GraduationCap } from 'lucide-react';
+import { Rocket, Globe, Briefcase, GraduationCap } from 'lucide-react';
 
 const AboutSection: React.FC = () => {
   const highlights = [
@@ -15,9 +15,9 @@ const AboutSection: React.FC = () => {
       text: "Continents, Global Market Experience"
     },
     {
-      icon: <CreditCard size={32} />,
-      number: "Fintech",
-      text: "& Payments Specialization"
+      icon: <Briefcase size={32} />,
+      number: "Industry",
+      text: "Fintech"
     },
     {
       icon: <GraduationCap size={32} />,
@@ -42,7 +42,7 @@ const AboutSection: React.FC = () => {
               My approach combines technical understanding with strategic vision, allowing me to identify market opportunities and build solutions that deliver real value. I collaborate effectively with engineering, design, and business teams to create products that users love and businesses rely on.
             </p>
             <p className="text-lg leading-relaxed">
-              Throughout my career, I've specialized in Fintech and Payments sectors, solving complex business challenges and creating innovative user experiences that drive growth and efficiency.
+              Throughout my career, I've specialized in Fintech sectors, solving complex business challenges and creating innovative user experiences that drive growth and efficiency.
             </p>
           </div>
           

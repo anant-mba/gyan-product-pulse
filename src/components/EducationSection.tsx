@@ -8,7 +8,7 @@ const EducationSection: React.FC = () => {
     {
       degree: "MBA, Technology Strategy & Product Management",
       institution: "University of Wisconsin-Madison",
-      logo: "https://www.wisc.edu/assets/images/main_logo.png",
+      logo: "/lovable-uploads/c443d8cc-d340-43d5-9861-5aa5f7f4b2ac.png",
       period: "2021 - 2023",
       highlights: [
         "President, Entrepreneurship Club",
@@ -19,7 +19,7 @@ const EducationSection: React.FC = () => {
     {
       degree: "B.Tech in Information Technology",
       institution: "West Bengal University of Technology",
-      logo: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Makaut_logo.jpg/220px-Makaut_logo.jpg",
+      logo: "/lovable-uploads/66c0cd33-3889-46a2-8a9a-ecc75e5b60a1.png",
       period: "2015 - 2019",
       highlights: []
     }
@@ -29,6 +29,10 @@ const EducationSection: React.FC = () => {
     {
       title: "President, Graduate Entrepreneurship Association",
       description: "Organized pitch competitions & mentorship events connecting students with entrepreneurs and investors."
+    },
+    {
+      title: "Graduate Assistant - Consumer Strategy",
+      description: "Consulted teams in 28-company projects across 5+ industry segments, tackling business issues."
     },
     {
       title: "Community Involvement",
