@@ -24,7 +24,19 @@ const ExperienceSection: React.FC = () => {
         "Delivered an internal tool using Agile methodology",
         "Used AI to enable smarter, faster backend processes"
       ],
-      tags: ["AI", "SQL Optimization", "Agile"]
+      tags: ["Product Management", "AI", "SQL Optimization", "Agile"]
+    },
+    {
+      company: "Smart Charging Technology",
+      role: "Product Market Research Intern",
+      problem: "Unclear demand for power solutions in international markets.",
+      contribution: "Conducted market analysis and customer outreach.",
+      outcomes: [
+        "Researched 75+ companies",
+        "Identified 3 key market needs and 60+ leads",
+        "Converted 5 leads into clients through demos and surveys"
+      ],
+      tags: ["Market Research", "Customer Acquisition"]
     },
     {
       company: "CryptoSmartlife",
@@ -37,7 +49,7 @@ const ExperienceSection: React.FC = () => {
         "Cut KYC time by 95% with automation",
         "Reduced churn by 45% through Slack-integrated API monitoring"
       ],
-      tags: ["Fintech", "KYC Automation", "API Monitoring"]
+      tags: ["Product Management", "Operations Management", "Business Strategy", "Fintech", "KYC Automation", "API Monitoring"]
     },
     {
       company: "InfyCrypto",
@@ -61,7 +73,7 @@ const ExperienceSection: React.FC = () => {
         "Led a 7-person cross-functional team",
         "Designed OTC service processes and increased revenue by 8%"
       ],
-      tags: ["Go-to-Market", "Process Design", "Team Leadership"]
+      tags: ["Product Management", "Operations Management", "Performance Optimization", "Go-to-Market", "Process Design", "Team Leadership"]
     },
     {
       company: "Tata Consultancy Services",
@@ -73,18 +85,6 @@ const ExperienceSection: React.FC = () => {
         "Reduced SLA breaches by 30%"
       ],
       tags: ["System Design", "Performance Optimization", "FMCG"]
-    },
-    {
-      company: "Smart Charging Technology",
-      role: "Market Research Intern",
-      problem: "Unclear demand for power solutions in international markets.",
-      contribution: "Conducted market analysis and customer outreach.",
-      outcomes: [
-        "Researched 75+ companies",
-        "Identified 3 key market needs and 60+ leads",
-        "Converted 5 leads into clients through demos and surveys"
-      ],
-      tags: ["Market Research", "Customer Acquisition", "Clean Energy"]
     }
   ];
 
