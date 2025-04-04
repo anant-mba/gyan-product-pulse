@@ -5,7 +5,7 @@ import { ArrowRight, Download, Mail } from 'lucide-react';
 
 const HeroSection: React.FC = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center pt-16 bg-gradient-to-br from-background to-secondary/30">
+    <section id="home" className="min-h-screen flex items-center pt-16 bg-gradient-to-br from-background to-secondary/20">
       <div className="section-container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div className="space-y-6 animate-fade-in" style={{ animationDelay: '0.2s' }}>
@@ -14,7 +14,7 @@ const HeroSection: React.FC = () => {
             </h1>
             
             <p className="text-xl text-muted-foreground">
-              Product Leader | AI, Web3, Market Strategy | Built & Launched Products Across 3 Continents
+              Professional Product Manager | Business Operations | Strategy Development | Process Design | Fintech & Payments Specialist
             </p>
             
             <div className="flex flex-wrap gap-4 pt-4">
@@ -41,11 +41,11 @@ const HeroSection: React.FC = () => {
           
           <div className="hidden lg:flex justify-center animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <div className="relative">
-              <div className="absolute -inset-1 rounded-lg bg-gradient-to-br from-teal-light to-navy-light opacity-50 blur"></div>
+              <div className="absolute -inset-1 rounded-lg bg-gradient-to-br from-primary/20 to-primary/40 opacity-70 blur"></div>
               <div className="relative bg-card rounded-lg shadow-xl overflow-hidden p-2">
                 <img 
-                  src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=800&q=80" 
-                  alt="Global tech connectivity" 
+                  src="/lovable-uploads/4f09a29d-2532-4f0a-867f-f0a2bb02435c.png" 
+                  alt="Anant Gyan - Product Manager" 
                   className="rounded-lg w-full h-auto"
                 />
               </div>

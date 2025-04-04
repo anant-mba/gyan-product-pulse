@@ -8,6 +8,7 @@ const EducationSection: React.FC = () => {
     {
       degree: "MBA, Technology Strategy & Product Management",
       institution: "University of Wisconsin-Madison",
+      logo: "https://www.wisc.edu/assets/images/main_logo.png",
       period: "2021 - 2023",
       highlights: [
         "President, Entrepreneurship Club",
@@ -18,6 +19,7 @@ const EducationSection: React.FC = () => {
     {
       degree: "B.Tech in Information Technology",
       institution: "West Bengal University of Technology",
+      logo: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Makaut_logo.jpg/220px-Makaut_logo.jpg",
       period: "2015 - 2019",
       highlights: []
     }
@@ -49,14 +51,23 @@ const EducationSection: React.FC = () => {
             
             <div className="space-y-6">
               {education.map((edu, index) => (
-                <Card key={index} className="card-hover">
-                  <CardHeader>
+                <Card key={index} className="card-hover overflow-hidden">
+                  <CardHeader className="pb-2">
                     <div className="flex justify-between items-start">
-                      <div>
-                        <CardTitle>{edu.degree}</CardTitle>
-                        <CardDescription>{edu.institution}</CardDescription>
+                      <div className="flex items-center gap-4">
+                        <div className="w-16 h-16 flex-shrink-0 overflow-hidden rounded-md bg-secondary/20 p-1">
+                          <img 
+                            src={edu.logo} 
+                            alt={edu.institution} 
+                            className="w-full h-full object-contain"
+                          />
+                        </div>
+                        <div>
+                          <CardTitle>{edu.degree}</CardTitle>
+                          <CardDescription>{edu.institution}</CardDescription>
+                        </div>
                       </div>
-                      <div className="flex items-center text-muted-foreground">
+                      <div className="flex items-center text-muted-foreground text-sm ml-2">
                         <CalendarDays size={16} className="mr-1" />
                         <span>{edu.period}</span>
                       </div>

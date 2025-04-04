@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Rocket, Globe, Lightbulb, GraduationCap } from 'lucide-react';
+import { Rocket, Globe, CreditCard, GraduationCap } from 'lucide-react';
 
 const AboutSection: React.FC = () => {
   const highlights = [
@@ -15,9 +15,9 @@ const AboutSection: React.FC = () => {
       text: "Continents, Global Market Experience"
     },
     {
-      icon: <Lightbulb size={32} />,
-      number: "AI/Web3",
-      text: "Tech Specialization"
+      icon: <CreditCard size={32} />,
+      number: "Fintech",
+      text: "& Payments Specialization"
     },
     {
       icon: <GraduationCap size={32} />,
@@ -27,7 +27,7 @@ const AboutSection: React.FC = () => {
   ];
 
   return (
-    <section id="about" className="py-24 bg-secondary/50">
+    <section id="about" className="py-24 bg-secondary/30">
       <div className="section-container">
         <h2 className="section-title">
           Meet <span className="text-primary">Anant Gyan</span>
@@ -36,13 +36,13 @@ const AboutSection: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
           <div className="lg:col-span-2 space-y-6">
             <p className="text-lg leading-relaxed">
-              I'm a Product Management professional who thrives at the intersection of innovation, technology, and market strategy. With experience leading products from ideation to launch across North America, Asia, and Europe, I've driven measurable outcomes like $1.5M projected revenue, 95% process automation, and a 98% improvement in performance.
+              I'm a Professional Product Management expert focused on Business Operations, Strategy Development, and Process Design. With experience leading products from ideation to launch across North America, Asia, and Europe, I've driven measurable outcomes like $1.5M projected revenue, 95% process automation, and a 98% improvement in performance.
             </p>
             <p className="text-lg leading-relaxed">
-              My approach combines technical expertise with strategic vision, allowing me to identify market opportunities and build solutions that deliver real value. I collaborate effectively with engineering, design, and business teams to create products that users love and businesses rely on.
+              My approach combines technical understanding with strategic vision, allowing me to identify market opportunities and build solutions that deliver real value. I collaborate effectively with engineering, design, and business teams to create products that users love and businesses rely on.
             </p>
             <p className="text-lg leading-relaxed">
-              Throughout my career, I've specialized in leveraging emerging technologies like AI and blockchain to solve complex business challenges and create innovative user experiences.
+              Throughout my career, I've specialized in Fintech and Payments sectors, solving complex business challenges and creating innovative user experiences that drive growth and efficiency.
             </p>
           </div>
           

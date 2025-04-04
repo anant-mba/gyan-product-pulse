@@ -9,7 +9,8 @@ import {
   Database, 
   PenTool, 
   GanttChart, 
-  Layers
+  Layers,
+  Award
 } from 'lucide-react';
 
 const SkillsSection: React.FC = () => {
@@ -27,7 +28,7 @@ const SkillsSection: React.FC = () => {
     {
       name: "Technical Skills",
       icon: <Database className="h-8 w-8 text-primary" />,
-      skills: ["SQL", "AI-Driven Optimization", "Web3 & Blockchain", "Data Analysis"]
+      skills: ["SQL", "Data Analysis", "Process Automation", "API Integration"]
     },
     {
       name: "User Research",
@@ -56,8 +57,26 @@ const SkillsSection: React.FC = () => {
     }
   ];
 
+  const certifications = [
+    {
+      title: "Finance Foundation",
+      provider: "LinkedIn",
+      year: "2023"
+    },
+    {
+      title: "Customer Analytics",
+      provider: "Coursera",
+      year: "2022"
+    },
+    {
+      title: "Project Management",
+      provider: "Microsoft & LinkedIn",
+      year: "2021"
+    }
+  ];
+
   return (
-    <section id="skills" className="py-24 bg-secondary/50">
+    <section id="skills" className="py-24 bg-secondary/30">
       <div className="section-container">
         <h2 className="section-title">
           Skills & <span className="text-primary">Tools</span>
@@ -65,13 +84,13 @@ const SkillsSection: React.FC = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {skillCategories.map((category, index) => (
-            <Card key={index} className="card-hover">
+            <Card key={index} className="card-hover h-full">
               <CardContent className="pt-6">
-                <div className="flex flex-col items-center">
+                <div className="flex flex-col items-center h-full">
                   <div className="mb-4">
                     {category.icon}
                   </div>
-                  <h3 className="text-xl font-bold mb-4 font-heading">{category.name}</h3>
+                  <h3 className="text-xl font-bold mb-4 font-heading text-center">{category.name}</h3>
                   <ul className="space-y-2 w-full">
                     {category.skills.map((skill, i) => (
                       <li key={i} className="text-muted-foreground text-center">{skill}</li>
@@ -84,11 +103,22 @@ const SkillsSection: React.FC = () => {
         </div>
         
         <div className="mt-16">
-          <h3 className="text-2xl font-bold text-center mb-8 font-heading">Certifications</h3>
-          <div className="max-w-2xl mx-auto bg-card shadow-sm rounded-lg p-6 border">
-            <p className="text-center text-muted-foreground italic">
-              Add your certifications here (e.g., PM, AI/ML, Agile, etc.)
-            </p>
+          <h3 className="text-2xl font-bold text-center mb-8 font-heading flex items-center justify-center">
+            <Award className="mr-2 text-primary" />
+            Certifications
+          </h3>
+          <div className="max-w-3xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              {certifications.map((cert, index) => (
+                <Card key={index} className="card-hover">
+                  <CardContent className="p-6">
+                    <h4 className="text-lg font-bold mb-2">{cert.title}</h4>
+                    <p className="text-muted-foreground">{cert.provider}</p>
+                    <p className="text-sm text-primary">{cert.year}</p>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
           </div>
         </div>
       </div>
