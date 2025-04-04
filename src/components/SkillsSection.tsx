@@ -28,7 +28,7 @@ const SkillsSection: React.FC = () => {
     {
       name: "Technical Skills",
       icon: <Database className="h-8 w-8 text-primary" />,
-      skills: ["SQL", "Data Analysis", "Process Automation", "API Integration"]
+      skills: ["SQL", "Data Analysis", "Process Automation"]
     },
     {
       name: "User Research",

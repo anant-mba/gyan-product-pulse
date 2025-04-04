@@ -33,10 +33,6 @@ const EducationSection: React.FC = () => {
     {
       title: "Graduate Assistant - Consumer Strategy",
       description: "Consulted teams in 28-company projects across 5+ industry segments, tackling business issues."
-    },
-    {
-      title: "Community Involvement",
-      description: "Promoting financial literacy in Tribal Nations and supporting digital inclusion via tech tools."
     }
   ];
 

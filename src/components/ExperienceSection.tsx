@@ -41,7 +41,7 @@ const ExperienceSection: React.FC = () => {
     {
       company: "CryptoSmartlife",
       role: "Product Manager",
-      problem: "High payment error rates, manual KYC onboarding, and churn.",
+      problem: "No user-facing product in place, with a tight 3-month runway to create a complex fintech platform while ensuring user trust, regulatory readiness, and seamless UX.",
       contribution: "Led a 14-member team to streamline product operations.",
       outcomes: [
         "Expanded into Europe with projected $1.5M revenue",
