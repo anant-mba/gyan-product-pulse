@@ -40,9 +40,9 @@ const WhyMeSection: React.FC = () => {
         
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
           {strengths.map((strength, index) => (
-            <Card key={index} className="card-hover">
+            <Card key={index} className="card-hover h-full">
               <CardContent className="pt-6">
-                <div className="flex flex-col items-center text-center">
+                <div className="flex flex-col items-center text-center h-full">
                   <div className="p-3 bg-primary/10 rounded-full mb-4">
                     {strength.icon}
                   </div>
@@ -55,7 +55,7 @@ const WhyMeSection: React.FC = () => {
         </div>
         
         <div className="flex flex-col md:flex-row gap-8 items-start justify-center">
-          <div className="bg-card border rounded-lg p-8 shadow-sm md:max-w-md">
+          <div className="bg-card border rounded-lg p-8 shadow-sm md:max-w-md w-full">
             <h3 className="text-xl font-bold mb-6 text-center font-heading">Key Qualities That Set Me Apart</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {keyQualities.map((quality, index) => (
@@ -67,11 +67,11 @@ const WhyMeSection: React.FC = () => {
             </div>
           </div>
           
-          <div className="md:max-w-md">
+          <div className="md:max-w-md w-full">
             <img 
-              src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" 
-              alt="Product Lifecycle" 
-              className="rounded-lg shadow-lg border border-muted"
+              src="/lovable-uploads/b9e0d93c-fbe3-4b78-996f-b993a070fa48.png" 
+              alt="Agile Product Lifecycle" 
+              className="rounded-lg shadow-lg border border-muted w-full h-auto"
             />
           </div>
         </div>

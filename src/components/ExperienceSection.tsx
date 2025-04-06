@@ -43,7 +43,7 @@ const ExperienceSection: React.FC = () => {
     {
       company: "CryptoSmartlife",
       role: "Product Manager",
-      problem: "When I joined Crypto Smartlife, the company was racing against time to launch its flagship platform for automated crypto investing. There was no user-facing product in place, and the engineering team needed clear, validated direction to avoid wasting cycles. The challenge was to rapidly design, validate, and launch a complex fintech product—all within a tight 3-month runway—while ensuring user trust, regulatory readiness, and seamless UX for both web and mobile platforms.",
+      problem: "No user-facing product in place, with a tight 3-month runway to create a complex fintech platform while ensuring user trust, regulatory readiness, and seamless UX.",
       contribution: "Led a 14-member team to streamline product operations.",
       outcomes: [
         "Expanded into Europe with projected $1.5M revenue",
