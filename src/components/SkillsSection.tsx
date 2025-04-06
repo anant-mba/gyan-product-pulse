@@ -48,7 +48,7 @@ const SkillsSection: React.FC = () => {
     {
       name: "Business Intelligence",
       icon: <BarChart3 className="h-8 w-8 text-primary" />,
-      skills: ["Market Sizing", "KPI Development", "Stakeholder Management"]
+      skills: ["Market Sizing", "KPI Development", "Stakeholder Management", "Requirement Gathering"]
     },
     {
       name: "Product Design",

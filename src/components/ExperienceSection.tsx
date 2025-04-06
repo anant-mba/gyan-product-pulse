@@ -2,6 +2,7 @@
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Award } from 'lucide-react';
 
 type CaseStudy = {
   company: string;
@@ -10,13 +11,14 @@ type CaseStudy = {
   contribution: string;
   outcomes: string[];
   tags: string[];
+  award?: string;
 };
 
 const ExperienceSection: React.FC = () => {
   const caseStudies: CaseStudy[] = [
     {
       company: "Google",
-      role: "Product Manager",
+      role: "Product Manager (CS)",
       problem: "SQL queries within internal tools were slow and inefficient.",
       contribution: "Evaluated AI-driven optimization models on 100+ SQL queries.",
       outcomes: [
@@ -41,7 +43,7 @@ const ExperienceSection: React.FC = () => {
     {
       company: "CryptoSmartlife",
       role: "Product Manager",
-      problem: "No user-facing product in place, with a tight 3-month runway to create a complex fintech platform while ensuring user trust, regulatory readiness, and seamless UX.",
+      problem: "When I joined Crypto Smartlife, the company was racing against time to launch its flagship platform for automated crypto investing. There was no user-facing product in place, and the engineering team needed clear, validated direction to avoid wasting cycles. The challenge was to rapidly design, validate, and launch a complex fintech product—all within a tight 3-month runway—while ensuring user trust, regulatory readiness, and seamless UX for both web and mobile platforms.",
       contribution: "Led a 14-member team to streamline product operations.",
       outcomes: [
         "Expanded into Europe with projected $1.5M revenue",
@@ -49,7 +51,8 @@ const ExperienceSection: React.FC = () => {
         "Cut KYC time by 95% with automation",
         "Reduced churn by 45% through Slack-integrated API monitoring"
       ],
-      tags: ["Product Management", "Operations Management", "Business Strategy", "Fintech", "KYC Automation", "API Monitoring"]
+      tags: ["Product Management", "Operations Management", "Business Strategy", "Fintech", "KYC Automation", "API Monitoring"],
+      award: "Best Maverick Award"
     },
     {
       company: "InfyCrypto",
@@ -65,7 +68,7 @@ const ExperienceSection: React.FC = () => {
     },
     {
       company: "DCEX",
-      role: "Operations Manager (Founding Team)",
+      role: "Associate Product Manager (Founding Team)",
       problem: "Needed market entry and process design from scratch.",
       contribution: "First hire, led go-to-market and product operations.",
       outcomes: [
@@ -84,7 +87,8 @@ const ExperienceSection: React.FC = () => {
         "Improved system performance",
         "Reduced SLA breaches by 30%"
       ],
-      tags: ["System Design", "Performance Optimization", "FMCG"]
+      tags: ["System Design", "Performance Optimization", "FMCG"],
+      award: "TCS On The Spot Award"
     }
   ];
 
@@ -92,7 +96,7 @@ const ExperienceSection: React.FC = () => {
     <section id="experience" className="py-24">
       <div className="section-container">
         <h2 className="section-title">
-          Experience & <span className="text-primary">Case Studies</span>
+          Experience
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -101,6 +105,12 @@ const ExperienceSection: React.FC = () => {
               <CardHeader className="bg-muted/30">
                 <CardTitle>{study.company}</CardTitle>
                 <CardDescription>{study.role}</CardDescription>
+                {study.award && (
+                  <div className="flex items-center mt-2 text-primary">
+                    <Award className="h-4 w-4 mr-1" />
+                    <span className="text-sm">{study.award}</span>
+                  </div>
+                )}
               </CardHeader>
               
               <CardContent className="pt-6 space-y-4">

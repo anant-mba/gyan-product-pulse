@@ -17,7 +17,7 @@ const ContactSection: React.FC = () => {
             <CardContent className="pt-6">
               <div className="text-center space-y-6">
                 <p className="text-xl">
-                  Are you looking for an experienced product manager for your product or company to take your product from 0 to 1? Let's connect!
+                  Are you looking for a Sr. Product Manager to launch & scale your product? Let's Connect!!
                 </p>
                 
                 <div className="flex flex-col md:flex-row justify-center gap-4 py-4">

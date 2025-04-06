@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { CalendarDays, Award, Users } from 'lucide-react';
+import { Award, Users } from 'lucide-react';
 
 const EducationSection: React.FC = () => {
   const education = [
@@ -9,7 +9,6 @@ const EducationSection: React.FC = () => {
       degree: "MBA, Technology Strategy & Product Management",
       institution: "University of Wisconsin-Madison",
       logo: "/lovable-uploads/c443d8cc-d340-43d5-9861-5aa5f7f4b2ac.png",
-      period: "2021 - 2023",
       highlights: [
         "Elected 1st year & subsequently 2nd year representative in both years of MBA at GBA - Graduate Business Association"
       ]
@@ -18,7 +17,6 @@ const EducationSection: React.FC = () => {
       degree: "B.Tech in Information Technology",
       institution: "West Bengal University of Technology",
       logo: "/lovable-uploads/d2539da6-9110-4cf3-8a9a-e3751581de26.png",
-      period: "2015 - 2019",
       highlights: []
     }
   ];
@@ -66,10 +64,6 @@ const EducationSection: React.FC = () => {
                           <CardTitle>{edu.degree}</CardTitle>
                           <CardDescription>{edu.institution}</CardDescription>
                         </div>
-                      </div>
-                      <div className="flex items-center text-muted-foreground text-sm ml-2">
-                        <CalendarDays size={16} className="mr-1" />
-                        <span>{edu.period}</span>
                       </div>
                     </div>
                   </CardHeader>

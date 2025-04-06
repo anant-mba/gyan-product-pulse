@@ -69,7 +69,7 @@ const WhyMeSection: React.FC = () => {
           
           <div className="md:max-w-md">
             <img 
-              src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" 
+              src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" 
               alt="Product Lifecycle" 
               className="rounded-lg shadow-lg border border-muted"
             />

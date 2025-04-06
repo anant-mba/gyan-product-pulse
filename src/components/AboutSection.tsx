@@ -17,12 +17,12 @@ const AboutSection: React.FC = () => {
     {
       icon: <Briefcase size={32} />,
       number: "Industry",
-      text: "Fintech"
+      text: <><span>Fintech</span><br /><span>Web3.0</span></>
     },
     {
       icon: <GraduationCap size={32} />,
       number: "MBA",
-      text: "Technology Strategy & PM"
+      text: "Technology Strategy & Product Management"
     }
   ];
 
