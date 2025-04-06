@@ -54,8 +54,8 @@ const WhyMeSection: React.FC = () => {
           ))}
         </div>
         
-        <div className="flex flex-col md:flex-row gap-8 items-start justify-center">
-          <div className="bg-card border rounded-lg p-8 shadow-sm md:max-w-md w-full">
+        <div className="flex flex-col md:flex-row gap-8 items-start justify-center w-full">
+          <div className="bg-card border rounded-lg p-8 shadow-sm flex-1 w-full md:w-2/3">
             <h3 className="text-xl font-bold mb-6 text-center font-heading">Key Qualities That Set Me Apart</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {keyQualities.map((quality, index) => (
@@ -67,7 +67,7 @@ const WhyMeSection: React.FC = () => {
             </div>
           </div>
           
-          <div className="md:max-w-md w-full">
+          <div className="w-full md:w-1/3">
             <img 
               src="/lovable-uploads/b9e0d93c-fbe3-4b78-996f-b993a070fa48.png" 
               alt="Agile Product Lifecycle" 

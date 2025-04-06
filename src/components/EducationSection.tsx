@@ -10,14 +10,18 @@ const EducationSection: React.FC = () => {
       institution: "University of Wisconsin-Madison",
       logo: "/lovable-uploads/c443d8cc-d340-43d5-9861-5aa5f7f4b2ac.png",
       highlights: [
-        "Elected 1st year & subsequently 2nd year representative in both years of MBA at GBA - Graduate Business Association"
+        "Elected 1st year & consecutively 2nd year representative in GBA - Graduate Business Association",
+        "Organized multiple networking events to promote UW-Madison motto - Together Forward"
       ]
     },
     {
       degree: "B.Tech in Information Technology",
       institution: "West Bengal University of Technology",
       logo: "/lovable-uploads/d2539da6-9110-4cf3-8a9a-e3751581de26.png",
-      highlights: []
+      highlights: [
+        "President of the chess club",
+        "Organized cultural events at campus"
+      ]
     }
   ];
 
@@ -47,9 +51,9 @@ const EducationSection: React.FC = () => {
               <Award className="mr-2 text-primary" /> Education
             </h3>
             
-            <div className="space-y-6">
+            <div className="space-y-6 h-full">
               {education.map((edu, index) => (
-                <Card key={index} className="card-hover overflow-hidden">
+                <Card key={index} className="card-hover overflow-hidden h-full">
                   <CardHeader className="pb-2">
                     <div className="flex justify-between items-start">
                       <div className="flex items-center gap-4">
@@ -87,9 +91,9 @@ const EducationSection: React.FC = () => {
               <Users className="mr-2 text-primary" /> Leadership & Impact
             </h3>
             
-            <div className="space-y-6">
+            <div className="space-y-6 h-full">
               {leadership.map((item, index) => (
-                <Card key={index} className="card-hover">
+                <Card key={index} className="card-hover h-full">
                   <CardHeader>
                     <div className="flex items-center gap-4">
                       <div className="w-16 h-16 flex-shrink-0 overflow-hidden rounded-md bg-secondary/20 p-1">

@@ -44,10 +44,9 @@ const ExperienceSection: React.FC = () => {
       company: "CryptoSmartlife",
       role: "Product Manager",
       problem: "No user-facing product in place, with a tight 3-month runway to create a complex fintech platform while ensuring user trust, regulatory readiness, and seamless UX.",
-      contribution: "Led a 14-member team to streamline product operations.",
+      contribution: "Built & Led team to develop & launch the product from scratch.",
       outcomes: [
         "Expanded into Europe with projected $1.5M revenue",
-        "Reduced payment errors, saving $200K in 5 years",
         "Cut KYC time by 95% with automation",
         "Reduced churn by 45% through Slack-integrated API monitoring"
       ],
