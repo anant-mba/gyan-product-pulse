@@ -28,7 +28,7 @@ const SkillsSection: React.FC = () => {
     {
       name: "Technical Skills",
       icon: <Database className="h-8 w-8 text-primary" />,
-      skills: ["SQL", "Data Analysis", "Process Automation"]
+      skills: ["Data Analysis", "Process Automation"]
     },
     {
       name: "User Research",
@@ -38,17 +38,17 @@ const SkillsSection: React.FC = () => {
     {
       name: "Analytics",
       icon: <LineChart className="h-8 w-8 text-primary" />,
-      skills: ["Product Metrics", "Funnel Analysis", "Cohort Analysis", "A/B Testing"]
+      skills: ["Product Metrics", "A/B Testing"]
     },
     {
       name: "Tools",
       icon: <PenTool className="h-8 w-8 text-primary" />,
-      skills: ["JIRA", "Mixpanel", "HubSpot", "Figma", "SQL"]
+      skills: ["JIRA", "Mixpanel", "HubSpot", "Figma", "Etherscan"]
     },
     {
       name: "Business Intelligence",
       icon: <BarChart3 className="h-8 w-8 text-primary" />,
-      skills: ["Market Sizing", "Revenue Modeling", "KPI Development", "Stakeholder Management"]
+      skills: ["Market Sizing", "KPI Development", "Stakeholder Management"]
     },
     {
       name: "Product Design",

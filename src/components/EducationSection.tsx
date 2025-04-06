@@ -11,9 +11,7 @@ const EducationSection: React.FC = () => {
       logo: "/lovable-uploads/c443d8cc-d340-43d5-9861-5aa5f7f4b2ac.png",
       period: "2021 - 2023",
       highlights: [
-        "President, Entrepreneurship Club",
-        "Consumer Strategy Consulting Assistant",
-        "Elected Representative for 2 years"
+        "Elected 1st year & subsequently 2nd year representative in both years of MBA at GBA - Graduate Business Association"
       ]
     },
     {
@@ -27,12 +25,14 @@ const EducationSection: React.FC = () => {
 
   const leadership = [
     {
-      title: "President, Graduate Entrepreneurship Association",
-      description: "Organized pitch competitions & mentorship events connecting students with entrepreneurs and investors."
+      title: "Graduate Assistant - Consumer Strategy",
+      description: "Consulted teams in 28-company projects across 5+ industry segments, tackling business issues.",
+      logo: "/lovable-uploads/c443d8cc-d340-43d5-9861-5aa5f7f4b2ac.png"
     },
     {
-      title: "Graduate Assistant - Consumer Strategy",
-      description: "Consulted teams in 28-company projects across 5+ industry segments, tackling business issues."
+      title: "President, Graduate Entrepreneurship Association",
+      description: "Organized pitch competitions & mentorship events connecting students with entrepreneurs and investors.",
+      logo: "/lovable-uploads/c443d8cc-d340-43d5-9861-5aa5f7f4b2ac.png"
     }
   ];
 
@@ -97,7 +97,16 @@ const EducationSection: React.FC = () => {
               {leadership.map((item, index) => (
                 <Card key={index} className="card-hover">
                   <CardHeader>
-                    <CardTitle>{item.title}</CardTitle>
+                    <div className="flex items-center gap-4">
+                      <div className="w-16 h-16 flex-shrink-0 overflow-hidden rounded-md bg-secondary/20 p-1">
+                        <img 
+                          src={item.logo} 
+                          alt="University of Wisconsin-Madison" 
+                          className="w-full h-full object-contain"
+                        />
+                      </div>
+                      <CardTitle>{item.title}</CardTitle>
+                    </div>
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">{item.description}</p>

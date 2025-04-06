@@ -54,15 +54,25 @@ const WhyMeSection: React.FC = () => {
           ))}
         </div>
         
-        <div className="bg-card border rounded-lg p-8 shadow-sm max-w-3xl mx-auto">
-          <h3 className="text-xl font-bold mb-6 text-center font-heading">Key Qualities That Set Me Apart</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {keyQualities.map((quality, index) => (
-              <div key={index} className="flex items-start">
-                <Check className="text-primary mr-2 mt-1 flex-shrink-0" />
-                <p>{quality}</p>
-              </div>
-            ))}
+        <div className="flex flex-col md:flex-row gap-8 items-start justify-center">
+          <div className="bg-card border rounded-lg p-8 shadow-sm md:max-w-md">
+            <h3 className="text-xl font-bold mb-6 text-center font-heading">Key Qualities That Set Me Apart</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {keyQualities.map((quality, index) => (
+                <div key={index} className="flex items-start">
+                  <Check className="text-primary mr-2 mt-1 flex-shrink-0" />
+                  <p>{quality}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+          
+          <div className="md:max-w-md">
+            <img 
+              src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" 
+              alt="Product Lifecycle" 
+              className="rounded-lg shadow-lg border border-muted"
+            />
           </div>
         </div>
       </div>
