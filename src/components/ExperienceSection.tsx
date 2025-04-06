@@ -20,9 +20,9 @@ const ExperienceSection: React.FC = () => {
       problem: "SQL queries within internal tools were slow and inefficient.",
       contribution: "Evaluated AI-driven optimization models on 100+ SQL queries.",
       outcomes: [
-        "Improved performance by 98%",
-        "Delivered an internal tool using Agile methodology",
-        "Used AI to enable smarter, faster backend processes"
+        "Led product vision for 98% performance improvement",
+        "Managed product lifecycle using Agile methodology",
+        "Prioritized AI features that enabled smarter data processing"
       ],
       tags: ["Product Management", "AI", "SQL Optimization", "Agile"]
     },

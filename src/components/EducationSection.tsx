@@ -19,7 +19,7 @@ const EducationSection: React.FC = () => {
     {
       degree: "B.Tech in Information Technology",
       institution: "West Bengal University of Technology",
-      logo: "/lovable-uploads/66c0cd33-3889-46a2-8a9a-ecc75e5b60a1.png",
+      logo: "/lovable-uploads/d2539da6-9110-4cf3-8a9a-e3751581de26.png",
       period: "2015 - 2019",
       highlights: []
     }

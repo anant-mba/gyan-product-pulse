@@ -14,7 +14,7 @@ const HeroSection: React.FC = () => {
             </h1>
             
             <p className="text-xl text-muted-foreground">
-              Professional Product Manager | Business Operations | Strategy Development | Process Design | Ex-Entrepreneur
+              Product Manager | Business Operations | Strategy Development | Process Design | Entrepreneur
             </p>
             
             <div className="flex flex-wrap gap-4 pt-4">
@@ -44,7 +44,7 @@ const HeroSection: React.FC = () => {
               <div className="absolute -inset-1 rounded-lg bg-gradient-to-br from-primary/20 to-primary/40 opacity-70 blur"></div>
               <div className="relative bg-card rounded-lg shadow-xl overflow-hidden p-2">
                 <img 
-                  src="/lovable-uploads/d2539da6-9110-4cf3-8a9a-e3751581de26.png" 
+                  src="/lovable-uploads/6378bdd0-c3f9-4846-b43d-093d50f9cc51.png" 
                   alt="Anant Gyan - Product Manager" 
                   className="rounded-lg w-full h-auto"
                 />
