@@ -32,13 +32,13 @@ const WhyMeSection: React.FC = () => {
   ];
 
   return (
-    <section id="why-me" className="py-16 bg-gradient-to-br from-background to-primary/5">
+    <section id="why-me" className="py-8 bg-gradient-to-br from-background to-primary/5">
       <div className="section-container">
         <h2 className="section-title">
           Why <span className="text-primary">Me?</span>
         </h2>
         
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
           {strengths.map((strength, index) => (
             <Card key={index} className="card-hover h-full">
               <CardContent className="pt-6">
@@ -54,7 +54,7 @@ const WhyMeSection: React.FC = () => {
           ))}
         </div>
         
-        <div className="flex flex-col md:flex-row gap-8 items-start justify-center w-full">
+        <div className="flex flex-col md:flex-row gap-4 items-start justify-center w-full">
           <div className="bg-card border rounded-lg p-8 shadow-sm md:w-2/3 w-full">
             <h3 className="text-xl font-bold mb-6 text-center font-heading">Key Qualities That Set Me Apart</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -71,7 +71,7 @@ const WhyMeSection: React.FC = () => {
             <img 
               src="/lovable-uploads/71cc45e6-7a16-4424-8485-798a4ff723f9.png" 
               alt="Product Development Lifecycle" 
-              className="rounded-lg shadow-lg border border-muted w-full h-auto"
+              className="rounded-lg w-full h-auto"
             />
           </div>
         </div>
