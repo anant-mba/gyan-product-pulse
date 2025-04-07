@@ -39,25 +39,25 @@ const EducationSection: React.FC = () => {
   ];
 
   return (
-    <section id="education" className="py-24">
+    <section id="education" className="py-16 mb-16">
       <div className="section-container">
         <h2 className="section-title">
           Education & <span className="text-primary">Leadership</span>
         </h2>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="space-y-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="space-y-6">
             <h3 className="text-2xl font-bold font-heading flex items-center">
               <Award className="mr-2 text-primary" /> Education
             </h3>
             
-            <div className="space-y-6 h-full">
+            <div className="grid grid-cols-1 gap-6">
               {education.map((edu, index) => (
                 <Card key={index} className="card-hover overflow-hidden h-full">
                   <CardHeader className="pb-2">
                     <div className="flex justify-between items-start">
                       <div className="flex items-center gap-4">
-                        <div className="w-16 h-16 flex-shrink-0 overflow-hidden rounded-md bg-secondary/20 p-1">
+                        <div className="w-14 h-14 flex-shrink-0 overflow-hidden rounded-md bg-secondary/20 p-1">
                           <img 
                             src={edu.logo} 
                             alt={edu.institution} 
@@ -65,7 +65,7 @@ const EducationSection: React.FC = () => {
                           />
                         </div>
                         <div>
-                          <CardTitle>{edu.degree}</CardTitle>
+                          <CardTitle className="text-lg">{edu.degree}</CardTitle>
                           <CardDescription>{edu.institution}</CardDescription>
                         </div>
                       </div>
@@ -73,8 +73,8 @@ const EducationSection: React.FC = () => {
                   </CardHeader>
                   
                   {edu.highlights.length > 0 && (
-                    <CardContent>
-                      <ul className="list-disc pl-5 space-y-1 text-muted-foreground">
+                    <CardContent className="pt-2">
+                      <ul className="list-disc pl-5 space-y-1 text-muted-foreground text-sm">
                         {edu.highlights.map((highlight, i) => (
                           <li key={i}>{highlight}</li>
                         ))}
@@ -86,28 +86,28 @@ const EducationSection: React.FC = () => {
             </div>
           </div>
           
-          <div className="space-y-8">
+          <div className="space-y-6">
             <h3 className="text-2xl font-bold font-heading flex items-center">
               <Users className="mr-2 text-primary" /> Leadership & Impact
             </h3>
             
-            <div className="space-y-6 h-full">
+            <div className="grid grid-cols-1 gap-6 h-full">
               {leadership.map((item, index) => (
                 <Card key={index} className="card-hover h-full">
-                  <CardHeader>
+                  <CardHeader className="pb-2">
                     <div className="flex items-center gap-4">
-                      <div className="w-16 h-16 flex-shrink-0 overflow-hidden rounded-md bg-secondary/20 p-1">
+                      <div className="w-14 h-14 flex-shrink-0 overflow-hidden rounded-md bg-secondary/20 p-1">
                         <img 
                           src={item.logo} 
                           alt="University of Wisconsin-Madison" 
                           className="w-full h-full object-contain"
                         />
                       </div>
-                      <CardTitle>{item.title}</CardTitle>
+                      <CardTitle className="text-lg">{item.title}</CardTitle>
                     </div>
                   </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground">{item.description}</p>
+                  <CardContent className="pt-2">
+                    <p className="text-muted-foreground text-sm">{item.description}</p>
                   </CardContent>
                 </Card>
               ))}

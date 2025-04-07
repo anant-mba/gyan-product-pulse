@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
             © {currentYear} Anant Gyan. All rights reserved.
           </div>
           
-          <div className="flex space-x-6">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
             <a 
               href="#home" 
               className="text-muted-foreground hover:text-primary transition-colors"

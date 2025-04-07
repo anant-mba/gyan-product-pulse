@@ -32,7 +32,7 @@ const WhyMeSection: React.FC = () => {
   ];
 
   return (
-    <section id="why-me" className="py-24 bg-gradient-to-br from-background to-primary/5">
+    <section id="why-me" className="py-16 bg-gradient-to-br from-background to-primary/5">
       <div className="section-container">
         <h2 className="section-title">
           Why <span className="text-primary">Me?</span>
@@ -55,7 +55,7 @@ const WhyMeSection: React.FC = () => {
         </div>
         
         <div className="flex flex-col md:flex-row gap-8 items-start justify-center w-full">
-          <div className="bg-card border rounded-lg p-8 shadow-sm flex-1 w-full md:w-2/3">
+          <div className="bg-card border rounded-lg p-8 shadow-sm md:w-2/3 w-full">
             <h3 className="text-xl font-bold mb-6 text-center font-heading">Key Qualities That Set Me Apart</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {keyQualities.map((quality, index) => (
@@ -67,10 +67,10 @@ const WhyMeSection: React.FC = () => {
             </div>
           </div>
           
-          <div className="w-full md:w-1/3">
+          <div className="md:w-1/3 w-full">
             <img 
-              src="/lovable-uploads/55da4bd0-e793-42db-ac8a-d6df0da6222f.png" 
-              alt="Product Lifecycle" 
+              src="/lovable-uploads/71cc45e6-7a16-4424-8485-798a4ff723f9.png" 
+              alt="Product Development Lifecycle" 
               className="rounded-lg shadow-lg border border-muted w-full h-auto"
             />
           </div>
