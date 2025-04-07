@@ -39,7 +39,7 @@ const EducationSection: React.FC = () => {
   ];
 
   return (
-    <section id="education" className="py-16 mb-16">
+    <section id="education" className="py-8 mb-8">
       <div className="section-container">
         <h2 className="section-title">
           Education & <span className="text-primary">Leadership</span>
