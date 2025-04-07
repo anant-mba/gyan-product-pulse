@@ -69,8 +69,8 @@ const WhyMeSection: React.FC = () => {
           
           <div className="w-full md:w-1/3">
             <img 
-              src="/lovable-uploads/b9e0d93c-fbe3-4b78-996f-b993a070fa48.png" 
-              alt="Agile Product Lifecycle" 
+              src="/lovable-uploads/55da4bd0-e793-42db-ac8a-d6df0da6222f.png" 
+              alt="Product Lifecycle" 
               className="rounded-lg shadow-lg border border-muted w-full h-auto"
             />
           </div>

@@ -32,6 +32,12 @@ const Footer: React.FC = () => {
               Experience
             </a>
             <a 
+              href="#why-me" 
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              Why Me?
+            </a>
+            <a 
               href="#contact" 
               className="text-muted-foreground hover:text-primary transition-colors"
             >
