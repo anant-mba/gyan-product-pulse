@@ -67,7 +67,7 @@ const WhyMeSection: React.FC = () => {
             </div>
           </div>
           
-          <div className="md:w-1/3 w-full mt-0">
+          <div className="md:w-1/3 w-full mt-[-80px]">
             <img 
               src="/lovable-uploads/71cc45e6-7a16-4424-8485-798a4ff723f9.png" 
               alt="Product Development Lifecycle" 
