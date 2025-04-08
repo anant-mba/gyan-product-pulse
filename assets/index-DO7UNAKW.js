@@ -1,1 +1,0 @@
-// Simulated JS bundle content
