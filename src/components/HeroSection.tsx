@@ -25,7 +25,20 @@ const HeroSection: React.FC = () => {
                 </a>
               </Button>
               
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
+              <Button 
+                variant="outline" 
+                className="border-primary text-primary hover:bg-primary/10"
+                onClick={() => {
+                  // Placeholder for resume download - add your resume file path here
+                  const resumeUrl = "/path-to-your-resume.pdf";
+                  const link = document.createElement('a');
+                  link.href = resumeUrl;
+                  link.download = "Anant_Gyan_Resume.pdf";
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+                }}
+              >
                 <Download className="mr-2 h-4 w-4" />
                 Download Resume
               </Button>
