@@ -59,9 +59,14 @@ const SkillsSection: React.FC = () => {
 
   const certifications = [
     {
-      title: "Finance Foundation",
-      provider: "LinkedIn",
-      year: "2023"
+      title: "Certified Scrum Product Owner (CSPO)",
+      provider: "Scrum Alliance",
+      year: "2024"
+    },
+    {
+      title: "Certified Scrum Master (CSM)",
+      provider: "Scrum Alliance",
+      year: "2024"
     },
     {
       title: "Customer Analytics",

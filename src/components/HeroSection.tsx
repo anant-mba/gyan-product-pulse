@@ -29,14 +29,8 @@ const HeroSection: React.FC = () => {
                 variant="outline" 
                 className="border-primary text-primary hover:bg-primary/10"
                 onClick={() => {
-                  // Placeholder for resume download - add your resume file path here
-                  const resumeUrl = "/path-to-your-resume.pdf";
-                  const link = document.createElement('a');
-                  link.href = resumeUrl;
-                  link.download = "Anant_Gyan_Resume.pdf";
-                  document.body.appendChild(link);
-                  link.click();
-                  document.body.removeChild(link);
+                  const resumeUrl = "https://drive.google.com/file/d/1WlTaEoCPixcCWwkPXDewXZYgy9LLKKYm/view?usp=sharing";
+                  window.open(resumeUrl, '_blank');
                 }}
               >
                 <Download className="mr-2 h-4 w-4" />
