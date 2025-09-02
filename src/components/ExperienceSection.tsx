@@ -54,18 +54,6 @@ const ExperienceSection: React.FC = () => {
       award: "Best Maverick Award"
     },
     {
-      company: "InfyCrypto",
-      role: "Product & Portfolio Manager",
-      problem: "Lack of a structured crypto trading experience for HNWIs in India.",
-      contribution: "Built India's first OTC crypto desk; optimized client portfolios.",
-      outcomes: [
-        "Managed $60K+ in client assets",
-        "Saved $36K+ in premium fees via negotiation",
-        "Partnered with 3 liquidity providers for better execution"
-      ],
-      tags: ["Crypto", "OTC Trading", "Portfolio Management"]
-    },
-    {
       company: "DCEX",
       role: "Associate Product Manager (Founding Team)",
       problem: "Needed market entry and process design from scratch.",
