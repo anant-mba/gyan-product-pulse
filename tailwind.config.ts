@@ -64,15 +64,15 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				// Portfolio specific colors
-				red: {
-					light: '#F27D7D',
-					DEFAULT: '#E53E3E',
-					dark: '#C53030'
+				blue: {
+					light: '#60A5FA',
+					DEFAULT: '#3B82F6',
+					dark: '#1D4ED8'
 				},
-				maroon: {
-					light: '#CC6666',
-					DEFAULT: '#993333',
-					dark: '#662222'
+				navy: {
+					light: '#4F86C6',
+					DEFAULT: '#1E3A8A',
+					dark: '#1E40AF'
 				}
 			},
 			borderRadius: {
