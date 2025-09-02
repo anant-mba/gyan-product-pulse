@@ -26,9 +26,9 @@ const SkillsSection: React.FC = () => {
       skills: ["Agile / Scrum", "Kanban", "Waterfall", "Lean Startup"]
     },
     {
-      name: "Technical Skills",
+      name: "Product Management",
       icon: <Database className="h-8 w-8 text-primary" />,
-      skills: ["Data Analysis", "Process Automation"]
+      skills: ["Product Lifecycle Management", "Feature Scoping (PRD)", "Security & Regulatory Awareness", "OKR/KPIs Tracking"]
     },
     {
       name: "User Research",

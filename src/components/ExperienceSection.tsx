@@ -18,7 +18,7 @@ const ExperienceSection: React.FC = () => {
   const caseStudies: CaseStudy[] = [
     {
       company: "Google",
-      role: "Product Manager (CS)",
+      role: "Product Manager (Industry Collaboration Project)",
       problem: "SQL queries within internal tools were slow and inefficient.",
       contribution: "Evaluated AI-driven optimization models on 100+ SQL queries.",
       outcomes: [
@@ -30,7 +30,7 @@ const ExperienceSection: React.FC = () => {
     },
     {
       company: "Smart Charging Technology",
-      role: "Product Market Research Intern",
+      role: "Product Manager (Growth, Internship)",
       problem: "Unclear demand for power solutions in international markets.",
       contribution: "Conducted market analysis and customer outreach.",
       outcomes: [
@@ -42,7 +42,7 @@ const ExperienceSection: React.FC = () => {
     },
     {
       company: "CryptoSmartlife",
-      role: "Product Manager",
+      role: "Senior Product Manager",
       problem: "No user-facing product in place, with a tight 3-month runway to create a complex fintech platform while ensuring user trust, regulatory readiness, and seamless UX.",
       contribution: "Built & Led team to develop & launch the product from scratch.",
       outcomes: [
@@ -55,7 +55,7 @@ const ExperienceSection: React.FC = () => {
     },
     {
       company: "DCEX",
-      role: "Associate Product Manager (Founding Team)",
+      role: "Associate Product Manager",
       problem: "Needed market entry and process design from scratch.",
       contribution: "First hire, led go-to-market and product operations.",
       outcomes: [
@@ -67,7 +67,7 @@ const ExperienceSection: React.FC = () => {
     },
     {
       company: "Tata Consultancy Services",
-      role: "Assistant System Engineer",
+      role: "System Engineer",
       problem: "System latency and SLA breaches for FMCG client.",
       contribution: "Redesigned core systems and streamlined performance.",
       outcomes: [
