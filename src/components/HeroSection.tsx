@@ -14,7 +14,7 @@ const HeroSection: React.FC = () => {
             </h1>
             
             <p className="text-xl text-muted-foreground">
-              Product Manager | Business Operations | Strategy Development | Process Design | Entrepreneur
+              Product Manager | Built Startups 0–1 | GTM Strategy & Business Operations | Driving Product & Process Optimization | Ex-Founder | CSPO, CSM
             </p>
             
             <div className="flex flex-wrap gap-4 pt-4">

@@ -69,11 +69,6 @@ const SkillsSection: React.FC = () => {
       year: "2024"
     },
     {
-      title: "Customer Analytics",
-      provider: "Coursera",
-      year: "2022"
-    },
-    {
       title: "Project Management",
       provider: "Microsoft & LinkedIn",
       year: "2021"
@@ -107,7 +102,7 @@ const SkillsSection: React.FC = () => {
           ))}
         </div>
         
-        <div className="mt-16">
+        <div className="mt-8">
           <h3 className="text-2xl font-bold text-center mb-8 font-heading flex items-center justify-center">
             <Award className="mr-2 text-primary" />
             Certifications
